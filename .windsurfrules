@@ -1,0 +1,13 @@
+We are building a Next.js/Typescript application 
+This is weight loss application. Its wireframe is at @.excalidraw file
+We will not be starting development with building user authentication 
+But keep in mind:
+- Architecture Preparation:
+Structure your code with authentication in mind
+Use a service layer pattern for data access
+Keep user-specific logic isolated in dedicated modules
+Use environment variables for configuration
+- Data Management:
+Design your data models with a userId field from the start, even if not used initially
+Structure your API endpoints with authentication middleware slots in mind
+Use placeholder user IDs (like "default" or "anonymous") for the initial version
